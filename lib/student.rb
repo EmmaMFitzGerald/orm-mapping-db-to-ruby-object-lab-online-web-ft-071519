@@ -98,6 +98,7 @@ class Student
     sql = <<-SQL
     "SELECT * FROM students 
     WHERE grade = '10' 
+    ORDER BY student.id
     LIMIT 1;"
     SQL
     
