@@ -98,7 +98,7 @@ class Student
     sql = <<-SQL
     SELECT * FROM students 
     WHERE grade = '10' 
-    ORDER BY students.id
+    ORDER BY students.name
     LIMIT 1
     SQL
     
